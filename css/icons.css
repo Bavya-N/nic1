@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Poppins:ital,wght@1,300&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* overflow: hidden; */
+    
+  }
+/* icons */
+.container-box {
+    background-color: #F4F3E7;
+    width:100%;
+    display: flex;
+    flex-direction:row;
+    /* margin-left:10px; */
+    /* margin-right: 10px; */
+
+  } 
+  
+  
+  .first-box {
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #9186ab;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 10px 10px 5px 1px #9186ab;
+    padding: 40px 40px;
+    margin-left:10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  } 
+  
+  .color1 {
+    text-align: center;
+    color: #53437b;
+  }
+  
+  .color2 {
+    text-align: center;
+
+    color: #4394d3;
+  }
+  
+  .color3 {
+    text-align: center;
+
+    color: #ec9c4b;
+  }
+  
+  .color4 {
+    color: #45bb84;
+    text-align: center;
+
+  }
+  
+  .color5 {
+    color: #a4c474;
+    text-align: center;
+
+  }
+  
+   
+  /* media screen for icon box */
+  @media screen and (min-width:1024px)and (max-width:1200px) {
+    .container-box {
+      width: 100%;
+      display: flex;
+      /* flex-direction: column; */
+    }
+  
+    .first-box {
+      width: 100%;
+  
+    }
+  }
+  @media screen and (min-width:768px)and (max-width:1024px) {
+    .container-box {
+      width: 100%;
+      /* display: flex; */
+      flex-direction: column;
+    }
+  
+    .first-box {
+      width: 100%;
+      margin-left:0;
+  
+    }
+  }
+  @media screen and (min-width:480px)and (max-width:768px) {
+    .container-box {
+      width: 100%;
+      /* display: flex; */
+      flex-direction: column;
+    }
+  
+    .first-box {
+      width: 100%;
+  
+    }
+  }
+  @media screen and (min-width:320px)and (max-width:480px) {
+    .container-box {
+      width: 100%;
+      /* display: flex; */
+      flex-direction: column;
+    }
+  
+    .first-box {
+      width: 100%;
+  
+    }
+  }
+  
+  
+  
+  
+  

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Poppins:ital,wght@1,300&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* overflow: hidden; */
+    
+  }
+.heading{
+    background-color: black;
+    color: #ba9b45;
+    text-align: left;
+    font-weight: bold;
+    font-size: 40px;
+    opacity: 0.8;
+    height:30vh;
+    animation-duration: 2s;
+}
+.container{
+    /* background-color: #d2c8b0; */
+    padding-bottom: 50px;
+    padding-top: 50px;
+    /* margin: 40px; */
+}
+.container h1{
+    color: #fff;
+    text-align: center;
+    
+  }
+  .faq{
+    padding:10px;
+  }
+  .faq p{
+    font-size: 18px;
+  }
+  details{
+    background-color: #c4c1b8;
+    color: #000;
+    font-size: 1.5rem;
+    border-radius:25px;
+
+  }
+  
+  summary {
+    font-style: italic;
+    padding: .5em 1.3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  
+    transition: height 1s ease;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary:after{
+    margin-left: 100px;
+    content: "\002B";
+  }
+  
+  details[open] summary {
+      border-bottom: 1px solid #aaa;
+      margin-bottom: .5em;
+  }
+  
+  details[open] summary:after{
+    content: "\00D7";
+  }
+  
+  details[open] div{
+    padding: .5em 1em;
+  }
+  
